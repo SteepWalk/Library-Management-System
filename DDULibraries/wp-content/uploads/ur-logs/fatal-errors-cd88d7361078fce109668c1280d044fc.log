@@ -1,0 +1,28 @@
+2024-12-25T16:41:55+00:00 CRITICAL Maximum execution time of 120 seconds exceeded in C:\xampp\htdocs\LMS\DDULibraries\wp-content\plugins\ocean-extra\includes\menu-icons\includes\library\icon-selector\includes\loader.php on line 58
+
+2024-12-25T17:01:52+00:00 CRITICAL Maximum execution time of 120 seconds exceeded in C:\xampp\htdocs\LMS\DDULibraries\wp-content\plugins\elementor\includes\autoloader.php on line 295
+
+2025-01-26T10:38:18+00:00 CRITICAL Maximum execution time of 120 seconds exceeded in C:\xampp\htdocs\LMS\DDULibraries\wp-content\plugins\elementor\includes\controls\url.php on line 6
+
+2025-01-28T11:31:04+00:00 CRITICAL Maximum execution time of 120 seconds exceeded in C:\xampp\htdocs\LMS\DDULibraries\wp-content\plugins\advanced-custom-fields\includes\locations\class-acf-location-post-status.php on line 3
+
+2025-01-28T13:38:54+00:00 CRITICAL Maximum execution time of 120 seconds exceeded in C:\xampp\htdocs\LMS\DDULibraries\wp-admin\includes\class-wp-filesystem-direct.php on line 82
+
+2025-01-28T14:04:29+00:00 CRITICAL Uncaught Error: Call to a member function get_gallery_image_ids() on bool in C:\xampp\htdocs\LMS\DDULibraries\wp-content\plugins\elementor\modules\ai\module.php:231
+Stack trace:
+#0 C:\xampp\htdocs\LMS\DDULibraries\wp-includes\class-wp-hook.php(324): Elementor\Modules\Ai\Module->get_product_images_ajax('')
+#1 C:\xampp\htdocs\LMS\DDULibraries\wp-includes\class-wp-hook.php(348): WP_Hook->apply_filters('', Array)
+#2 C:\xampp\htdocs\LMS\DDULibraries\wp-includes\plugin.php(517): WP_Hook->do_action(Array)
+#3 C:\xampp\htdocs\LMS\DDULibraries\wp-admin\admin-ajax.php(192): do_action('wp_ajax_element...')
+#4 {main}
+  thrown in C:\xampp\htdocs\LMS\DDULibraries\wp-content\plugins\elementor\modules\ai\module.php on line 231
+
+2025-01-28T14:34:50+00:00 CRITICAL Uncaught Error: Call to a member function get_gallery_image_ids() on bool in C:\xampp\htdocs\LMS\DDULibraries\wp-content\plugins\elementor\modules\ai\module.php:231
+Stack trace:
+#0 C:\xampp\htdocs\LMS\DDULibraries\wp-includes\class-wp-hook.php(324): Elementor\Modules\Ai\Module->get_product_images_ajax('')
+#1 C:\xampp\htdocs\LMS\DDULibraries\wp-includes\class-wp-hook.php(348): WP_Hook->apply_filters('', Array)
+#2 C:\xampp\htdocs\LMS\DDULibraries\wp-includes\plugin.php(517): WP_Hook->do_action(Array)
+#3 C:\xampp\htdocs\LMS\DDULibraries\wp-admin\admin-ajax.php(192): do_action('wp_ajax_element...')
+#4 {main}
+  thrown in C:\xampp\htdocs\LMS\DDULibraries\wp-content\plugins\elementor\modules\ai\module.php on line 231
+
